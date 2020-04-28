@@ -19,7 +19,7 @@
 <body>
 <form action="index.php" method="post">
     <label>Enter your name </label>
-    <p>Name: <input type="text" name="nameString"></p>
+    <p>Name: <input type="text" name="nameString" class="form-control" required></p>
     <input type="submit">
 </form>
 
